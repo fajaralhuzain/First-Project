@@ -3,8 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 # Load dataset
-file_path = "day.csv"
-df = pd.read_csv(file_path)
+# file_path = "day.csv"
+df = pd.read_csv("day.csv")
 
 # Convert dteday to datetime
 df['dteday'] = pd.to_datetime(df['dteday'])
